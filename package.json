@@ -1,0 +1,24 @@
+{
+  "name": "gestor-pedidos-api",
+  "version": "1.0.0",
+  "description": "API gestor de pedidos",
+  "main": "./bin/init.js",
+  "scripts": {
+    "start": "node ./bin/init.js",
+    "dev": "nodemon ./bin/init.js",
+    "test-lint": "npx eslint ./*.js"
+  },
+  "author": "Rojas",
+  "license": "ISC",
+  "dependencies": {
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mongoose": "^7.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.35.0",
+    "nodemon": "^2.0.21"
+  }
+}
